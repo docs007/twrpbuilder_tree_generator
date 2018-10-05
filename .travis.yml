@@ -22,7 +22,7 @@ deploy:
   skip_cleanup: true
   provider: releases
   api_key: "$GIT_OAUTH_TOKEN_TB"
-  file: "/home/travis/build/TwrpBuilder/twrpbuilder_tree_generator/build/libs/TwrpBuilder-1.0-SNAPSHOT.jar"
+  file: "/home/travis/build/docs007/twrpbuilder_tree_generator/build/libs/TwrpBuilder-1.0-SNAPSHOT.jar"
   on:
     tags: false
     repo: docs007/twrpbuilder_tree_generator
