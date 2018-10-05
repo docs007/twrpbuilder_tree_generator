@@ -21,7 +21,7 @@ script: ./gradlew build && ./gradlew shadowJar
 deploy:
   skip_cleanup: true
   provider: releases
-  api_key: "$GIT_OAUTH_TOKEN_TB"
+  api_key: "$043866f5-6794-4804-8a84-fde11a96bb63"
   file: "/home/travis/build/docs007/twrpbuilder_tree_generator/build/libs/TwrpBuilder-1.0-SNAPSHOT.jar"
   on:
     tags: false
