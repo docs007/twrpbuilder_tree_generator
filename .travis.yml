@@ -25,7 +25,7 @@ deploy:
   file: "/home/travis/build/TwrpBuilder/twrpbuilder_tree_generator/build/libs/TwrpBuilder-1.0-SNAPSHOT.jar"
   on:
     tags: false
-    repo: TwrpBuilder/twrpbuilder_tree_generator
+    repo: docs007/twrpbuilder_tree_generator
     branch: master
 branches:
   except:
